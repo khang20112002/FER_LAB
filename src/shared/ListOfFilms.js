@@ -5,6 +5,7 @@ export const Films = [
         Title: "Nang Tien Ca",
         Year: 2023,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
     },
 
     {
@@ -13,6 +14,8 @@ export const Films = [
         Title: "Nhen Nho",
         Year: 2023,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -21,6 +24,8 @@ export const Films = [
         Title: "Nha Ba Nu",
         Year: 2022,
         Nation: "Vietnam",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -29,6 +34,8 @@ export const Films = [
         Title: "Fast and Furious 5",
         Year: 2001,
         Nation: "Japan",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -37,6 +44,8 @@ export const Films = [
         Title: "Black Adam",
         Year: 2022,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -45,6 +54,8 @@ export const Films = [
         Title: "Nguoi Ruoi 2",
         Year: 1989,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -53,6 +64,8 @@ export const Films = [
         Title: "John Wich 2",
         Year: 2017,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -61,6 +74,8 @@ export const Films = [
         Title: "Wonder Women",
         Year: 2017,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
     {
@@ -69,6 +84,8 @@ export const Films = [
         Title: "Guardians of the Galaxy 3",
         Year: 2023,
         Nation: "USA",
+        Info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop."
+
     },
 
    
