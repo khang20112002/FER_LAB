@@ -4,46 +4,50 @@ import "./Films.css";
 
 import { useState } from "react";
 
-export default function FilmsPresentation({ Films }) {
+export default function FilmsPresentation(){
   const [film, setFilm] = useState({});
 
   const closePopup = () => {};
 
   return (
+    <>
     <div className="container">
-      {Films.map((Films) => (
-        <div className="column">
+      {Films.map((film) => (
+        <div className="column" key={film.id}>
           <div className="card">
-            <img src={Films.image} className="card-image" />
+            <img src={film.image} className="card-image" />
             <div className="card-body">
               <div className="title-body">
-                <h1>{Films.Title}</h1>
+                <h1>{film.Title}</h1>
               </div>
-              <p className="">{Films.Year}</p>
-              <p>{Films.Nation}</p>
+              <p className="">{film.Year}</p>
+              <p>{film.Nation}</p>
 
               <button onClick={() => setFilm(film)} className="btn">
                 <a href="#popup1" id="openPopUp" style={{ color: "white" }}>
                   Detail
                 </a>
               </button>
+
             </div>
           </div>
         </div>
       ))}
+      
+        <div id="popup1" className="overlay">
+          <div className="popup">
 
-      <div id="popup1" className="overlay">
-        <div className="popup" >
-          <img src={Films.image} alt={Films.Title}/> 
-          
-          <h2>{Films.Title}</h2>
+            <img src={film.image}/>
+            <h2>{film.Title}</h2>
 
-          <a className="close" href="#" onClick={closePopup}>
-            &times;
-          </a>
-          <div className="content">{Films.Info}</div>
+            <a className="close" href="#" onClick={closePopup}>
+              &times;
+            </a>
+
+            <div className="content">{film.Info}</div>
+          </div>
         </div>
-      </div>
     </div>
+    </>
   );
 }

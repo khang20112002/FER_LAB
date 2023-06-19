@@ -6,12 +6,12 @@ export class Main extends Component {
     constructor() {
         super();
         this.state = {
-            Films: Films
+            film: Films
         };
     }
 
     render() {
-        return <FilmsPresentation Films={this.state.Films} />
+        return <FilmsPresentation Films={this.state.film} />
     }
 
 }
