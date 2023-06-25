@@ -102,9 +102,9 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
 }
-.popup .close:hover {color: #cbcbcb;}
+.popup .close:hover {color: #b2b2b2;}
 .popup .content {
   max-height: 30%;
   overflow: auto;

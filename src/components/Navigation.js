@@ -1,5 +1,6 @@
 import React from "react";
-import "./Navigation.css"
+import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -8,18 +9,16 @@ export default function Navigation() {
         <div className="Header">
           <div className="headerMenu">
             <li>
-              <a className="active" href="#home">
-                Home
-              </a>
+              <Link to={`/`}>Home</Link>
             </li>
             <li>
-              <a href="#news">News</a>
+              <Link to={`/`}>News</Link>
             </li>
             <li>
-              <a href="#about">About</a>
+            <Link to={`/`}>About</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+            <Link to={`/`}>Contact</Link>
             </li>
           </div>
         </div>

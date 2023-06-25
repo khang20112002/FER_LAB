@@ -4,12 +4,25 @@ import FilmsPresentation from './components/FilmsPresentation';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import { Route, Routes } from 'react-router-dom';
+import PopUp from './components/PopUp';
+import News from './components/News';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <>
     <Navigation/>
-    <Main/>
+
+    <Routes>
+      <Route path='/film/:id' element={<PopUp/>}/>
+      <Route path='/' element={<Main/>}/>
+      <Route path='/News' element={<News/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
+    </Routes>
+
     <Footer/>
     </>
   );
