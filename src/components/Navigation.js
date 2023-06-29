@@ -9,7 +9,7 @@ export default function Navigation() {
         <div className="Header">
           <div className="headerMenu">
             <li>
-              <Link to={`/`}>Home</Link>
+              <Link to={`/Home`}>Home</Link>
             </li>
             <li>
               <Link to={`/`}>News</Link>
