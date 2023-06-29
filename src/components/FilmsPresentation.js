@@ -13,7 +13,7 @@ export default function FilmsPresentation(){
 
   return (
     <>
-    <div className="container">
+    <div className="container-film">
       {Films.map((film) => (
         <div className="column" key={film.id}>
           <div className="card">
