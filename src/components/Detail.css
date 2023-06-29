@@ -1,0 +1,17 @@
+.container {
+    padding-top: 5rem;
+    text-align: center;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.film-tumb img{
+
+        width: 700px;
+        height: 400px;
+        
+    
+}

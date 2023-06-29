@@ -5,7 +5,7 @@ import Main from './components/Main';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
-import PopUp from './components/PopUp';
+import Detail from './components/Detail';
 import News from './components/News';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -16,7 +16,7 @@ function App() {
     <Navigation/>
 
     <Routes>
-      <Route path='/film/:id' element={<PopUp/>}/>
+      <Route path='/film/:id' element={<Detail/>}/>
       <Route path='/' element={<Main/>}/>
       <Route path='/News' element={<News/>}/>
       <Route path='/About' element={<About/>}/>

@@ -9,16 +9,16 @@ export default function Navigation() {
         <div className="Header">
           <div className="headerMenu">
             <li>
-              <Link to={`/Home`}>Home</Link>
+              <Link to={`/`}>Home</Link>
             </li>
             <li>
-              <Link to={`/`}>News</Link>
+              <Link to={`/News`}>News</Link>
             </li>
             <li>
-            <Link to={`/`}>About</Link>
+            <Link to={`/About`}>About</Link>
             </li>
             <li>
-            <Link to={`/`}>Contact</Link>
+            <Link to={`/Contact`}>Contact</Link>
             </li>
           </div>
         </div>

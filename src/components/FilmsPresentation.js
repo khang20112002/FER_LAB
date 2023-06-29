@@ -4,7 +4,7 @@ import "./Films.css";
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import PopUp from "./PopUp";
+import Detail from "./Detail";
 
 export default function FilmsPresentation(){
   const [film, setFilm] = useState({});
